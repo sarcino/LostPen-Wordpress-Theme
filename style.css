@@ -56,18 +56,12 @@ h5 a {
     transition: .3s;
 }
 
-
+body {
+    font-size: 12px;
+}
 
 
 header {
-  /*  display: grid;*/
-    /* background: #ECE9E6;*/
-    /* fallback for old browsers */
-   /*  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);*/
-    /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #FFFFFF, #ECE9E6);*/
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     background-repeat: no-repeat;   
     background-size: cover;
     height: 150px;
@@ -84,9 +78,6 @@ h1, h1 a {
     text-decoration: none;
     font-weight: 400;
 }
-
-
-
 
 article h2 a:hover {
     color: var(--color-black);
@@ -483,33 +474,42 @@ textarea {
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background: var(--color-illuminating);
+    margin-top: 30px;
     padding: 30px 20px;
     color: var(--color-black);
     font-family: var(--font-main);
     font-size: 0.8rem;
     line-height: 1.6;
-    margin-top: 30px;
 }
 
 footer section {
-    max-width: 30vw;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;       
 }
 
-footer section h2 {
-    font-size: 0.9rem;
+footer section li {
+    list-style-type: none;
 }
 
-footer section p {
+footer section .widget a  {
     color: var(--color-black);
+    text-decoration: none;
+    border-bottom: 2px solid var(--color-black);
 }
 
-footer section p a {
+footer .footer-info {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer .footer-info p:not(:first-child) {
+    margin-left: 10px;
+}
+
+footer .footer-info p a {
     color: var(--color-black);
     text-decoration: none;
     border-bottom: 2px solid var(--color-black);
@@ -561,6 +561,23 @@ footer ul li a:hover,
 footer h2 {
     font-family: var(--font-headline);
     color: var(--color-black);
+}
+
+footer input[type=search] {
+    border: 2px solid var(--color-black);
+    line-height: 1;
+    padding: 10px; 
+}
+
+footer input[type=submit] {
+    cursor: pointer;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
 }
 
 

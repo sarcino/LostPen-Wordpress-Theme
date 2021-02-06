@@ -5,7 +5,7 @@
 <main>
 
 <article>
-<h2>Výsledky hledání | <?php echo get_search_query(); ?></h2>
+<h2>Search Results | <?php echo get_search_query(); ?></h2>
 
 <?php 
 while (have_posts()) : the_post(); 

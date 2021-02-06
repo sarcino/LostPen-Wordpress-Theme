@@ -24,7 +24,7 @@ while (have_posts()) : the_post();
  
 <?php the_excerpt(); ?>
 
-<div class="link-with-arrow"><a href="<?php the_permalink(); ?>" class="read-more">Číst dál</a></div>
+<div class="link-with-arrow"><a href="<?php the_permalink(); ?>" class="read-more">Read more</a></div>
 </article>
 
 <?php endwhile; ?>
@@ -35,8 +35,8 @@ while (have_posts()) : the_post();
 
 <?php echo paginate_links(
     array(
-        'prev_text' => '<span class="prev-articles">předchozí články</span>',
-        'next_text' => '<span class="next-articles">následující články</span>'      
+        'prev_text' => '<span class="prev-articles">Previous articles</span>',
+        'next_text' => '<span class="next-articles">Next articles</span>'      
       )
 ); ?>
        
