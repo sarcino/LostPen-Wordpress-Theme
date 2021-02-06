@@ -13,16 +13,35 @@
 <?php the_content(); ?>
 
 <div class="comments">
-<?php comment_form(); ?>
+
+<?php comment_form();
+
+$comments_number = get_comments_number();
+if($comments_number != 0) {
+?>
+
+<h3>What others say</h3>
+<ul>
+<?php
+$comments = get_comments(array(
+    "post_id" => $post->ID,
+    "status" => "approve"
+));
+
+wp_list_comments(array(
+    "per_page" => 15,
+), $comments);
+
+?>
+</ul>
+
+<?php
+}
+?>
+
 </div>
-
-
-
 </article>
-
-
 <?php } ?>
 </main>
-
 
 <?php get_footer(); ?>

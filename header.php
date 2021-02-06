@@ -13,7 +13,7 @@
     <header>
         <div id="header">
         <h1>
-            <a href="<?php echo site_url(''); ?>" name="top">Ztracená propiska</a>            
+            <a href="<?php echo site_url(''); ?>" name="top">LostPen Wordpress Theme</a>            
         </h1>
     </div>
     </header>

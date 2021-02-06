@@ -265,13 +265,20 @@ padding: 0;
     max-width: 720px;
 }
 
+.comments ul li {
+    list-style-type: none;
+
+}
+
 .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
     margin-top: 20px;
     display: flex;
     align-items: flex-start;
 }
 
-
+.comment-metadata {
+    display: none;
+}
 
 .comment-form-cookies-consent {
     display: none;
@@ -303,7 +310,6 @@ padding: 0;
     display: inline-block;
     vertical-align: top;
 }
-
 
 .form-submit #submit {
     text-transform: uppercase;
