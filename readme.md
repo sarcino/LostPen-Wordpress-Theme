@@ -20,5 +20,5 @@ LostPen is a responsive WordPress blog theme.
 ## Changelog
 
 ### 1.0
-* Released: February 7, 2021
+* Released: February 27, 2021
 
