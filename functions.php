@@ -3,7 +3,7 @@
 // adding the CSS and JS files
 
 function gt_setup() {
-    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,700&display=swap');
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
     wp_enqueue_style('style', get_stylesheet_uri('style.css'), NULL, microtime(), 'all');
     wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
 }

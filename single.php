@@ -7,7 +7,7 @@
 <article>
 
 <h2><?php the_title(); ?></h2>
-<div class="date"><?php the_time("j. F Y"); ?>  |  <a href="#"><?php echo get_the_tag_list() ?></a></div>
+<div class="date"><?php the_time("d. m. Y"); ?>  |  <a href="#"><?php echo get_the_tag_list() ?></a></div>
 <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>">
 
 <?php the_content(); ?>

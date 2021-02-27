@@ -8,27 +8,19 @@ Version: 1.0
 
 /* Libre Franklin and Open Sans Google Fonts 
 
-font-family: 'Libre Franklin', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
 
-I used to use Verdana as a main font
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
-
 :root {
-    --font-main: "Open Sans", "Verdana", "Helvetica", sans-serif;
-    --font-headline: "Libre Franklin", sans-serif;
+    --font-main: 'Raleway', sans-serif;
+    --font-headline: 'Josefin Sans', sans-serif;
     --color-black: #000000;
     --color-grey: #ece9e6;
     --color-white: #ffffff;
     --color-illuminating: #f5df4d;
-    --color-ultimate-gray: #939597;
 }
 
 * {
@@ -49,7 +41,7 @@ h3 a,
 h4 a,
 h5 a {
     font-family: var(--font-headline);
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     text-decoration: none;
     color: var(--color-black);
@@ -69,14 +61,13 @@ header {
 }
 
 h1, h1 a {    
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
     text-align: center;
     margin-top: 5rem;
-    font-size: 3rem;
     color: var(--color-black);
     text-decoration: none;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 article h2 a:hover {
@@ -88,7 +79,7 @@ article h2 {
     line-height: 1.5;
 }
 
-article h3 {
+article h3, .widget_categories h3, .widget_nav_menu h3 {
     font-size: 1.6rem;
 }
 
@@ -178,12 +169,12 @@ article iframe {
 }
 
 article p {
-    line-height: 1.7;
+    line-height: 1.9;
     font-size: 1rem;
     color: var(--color-black);
 }
 
-article p a {
+article p a{
     color: var(--color-black);
     text-decoration: none;
     border-bottom: 2px solid var(--color-black);
@@ -258,7 +249,6 @@ padding: 0;
 
 .comments ul li {
     list-style-type: none;
-
 }
 
 .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
@@ -505,6 +495,11 @@ footer .footer-info {
     text-align: center;
 }
 
+.widget_categories ul li a {
+    line-height: 1.9;
+
+}
+
 footer .footer-info p:not(:first-child) {
     margin-left: 10px;
 }
@@ -578,6 +573,10 @@ footer input[type=submit] {
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     padding: 10px 30px;
+}
+
+.comment-form-url, .reply {
+    display: none;
 }
 
 

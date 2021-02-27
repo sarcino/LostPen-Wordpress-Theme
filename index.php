@@ -16,7 +16,7 @@ while (have_posts()) : the_post();
 </a>
 </h2>
 
-    <div class="date"><?php the_time("j. F Y"); ?>  |  <a href="#"><?php echo get_the_tag_list() ?></a></div>
+    <div class="date"><?php the_time("d. m. Y"); ?>  |  <a href="#"><?php echo get_the_tag_list() ?></a></div>
 
     <?php if(has_post_thumbnail()) { ?>
  <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" />
