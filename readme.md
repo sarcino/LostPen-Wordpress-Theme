@@ -15,7 +15,7 @@ LostPen is a responsive WordPress blog theme.
 *   Header effect
 *   Auto-growing textarea
 *   HTML5, CSS3
-*   Google Fonts: Libre Franklin, Open Sans, Fredericka the Great
+*   Google Fonts: Josefin Sans and Raleway
 
 ## Changelog
 

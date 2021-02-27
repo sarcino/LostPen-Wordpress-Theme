@@ -6,8 +6,7 @@ Description: Simple and minimalistic personal blog theme
 Version: 1.0
 */
 
-/* Libre Franklin and Open Sans Google Fonts 
-
+/* 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Raleway', sans-serif;
 
@@ -487,7 +486,7 @@ footer section li {
 footer section .widget a  {
     color: var(--color-black);
     text-decoration: none;
-    border-bottom: 2px solid var(--color-black);
+    border-bottom: none;
 }
 
 footer .footer-info {
