@@ -42,10 +42,3 @@ add_action("widgets_init", "gt_widgets");
 
 
 ?>
-
-
-
-
-
-
-
