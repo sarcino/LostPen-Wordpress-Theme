@@ -10,10 +10,10 @@
 LostPen is a responsive WordPress blog theme. 
 
 *   Minimalistic and lightweight
-*   Black & white theme will help concentrate on text or/and photos
+*   Accessible. Sufficient contrast ratio
+*   Simple and cleam color scheme can help concentrate on text or/and photos
 *   Illuminating yellow footer
-*   Header effect
-*   Auto-growing textarea
+*   Auto-growing textarea in the comment form
 *   HTML5, CSS3
 *   Google Fonts: Josefin Sans and Raleway
 
